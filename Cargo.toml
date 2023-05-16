@@ -1,0 +1,16 @@
+[package]
+name = "work"
+version = "0.1.0"
+edition = "2021"
+
+[[example]]
+name = "shader1"
+path = "examples/shader1.rs"
+
+[[example]]
+name = "shader2"
+path = "examples/shader2.rs"
+
+[dependencies]
+bevy = "0.10.0"
+bevy_pbr = "0.10.1"
